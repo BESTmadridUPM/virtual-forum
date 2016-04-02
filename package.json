@@ -3,13 +3,12 @@
 	"version": "0.0.1",
 	"dependencies": {
 		"express": "3.0.0rc4",
-		"multer": "~0.1.6"
+    "multer": "1.1.0"
 	},
 	"engines": {
-		"node": "0.10.25"
+		"node": "5.1.0"
 	},
 	"scripts": {
-		"test": "grunt test",
-		"start": "node api/server.js"
+		"start": "node backend/app.js"
 	}
 }

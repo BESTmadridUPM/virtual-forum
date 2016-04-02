@@ -4,25 +4,21 @@ var express = require('express');
 var path = require('path');
 var http = require('http');
 var multer = require('multer');
+var fs = require('fs');
 
 var app = express();
 var done = false;
 
-/*Configure the multer.*/
-
-app.use(multer({
-	dest: './uploads/',
-	rename: function (fieldname, filename) {
-		return filename+Date.now();
+var storage =   multer.diskStorage({
+	destination: function (req, file, callback) {
+		callback(null, './uploads');
 	},
-	onFileUploadStart: function (file) {
-		console.log(file.originalname + ' is starting ...');
-	},
-	onFileUploadComplete: function (file) {
-		console.log(file.fieldname + ' uploaded to  ' + file.path);
-		done=true;
+	filename: function (req, file, callback) {
+		callback(null, file.fieldname + '-' + Date.now());
 	}
-}));
+});
+
+var upload = multer({ storage : storage}).single('CV');
 
 app.configure(function(){
 
@@ -38,8 +34,10 @@ app.configure(function(){
 
 
 app.post('/api/uploadCV/', function (request, response) {
-	console.log(request.files);
-	response.send(204);
+	var newPath = '/home/jfcobarea/BEST/IT/uploads/uploadedFileName.pdf';
+	fs.rename(request.files.CV.path, newPath, function (err, data) {
+	  response.send('request');
+	});
 });
 
 // Server creation

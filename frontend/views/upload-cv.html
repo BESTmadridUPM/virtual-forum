@@ -1,12 +1,16 @@
+<form 
+	id="uploadForm"
+	enctype="mutipart/form-data"
+	action="/api/uploadCV/"
+	method="post">
+
+	<input type="file" name="CV">
+	<input class='btn' type="submit" value="Subir CV" name="submit">
+</form>
+
 <div class="row">
 
-<!--
-	<form class="col s12" 
-		id="uploadForm"
-		enctype="mutipart/form-data"
-		action="/api/uploadCV/"
-		method="post"
-	>
+		<!-- <div class="input-field">
 		<div class="row">
 			<div class="input-field col s6">
 				<input name="first_name" type="text" class="validate">
@@ -26,13 +30,18 @@
 				<option value="" disabled selected>Elige tu centro de estudios</option>
 				<option ng-repeat= "(key,school) in schools" value="{{key}}">{{school}}</option>
 			</select>
-			<div class="input-field">
-				<input type="file" name="CV">
 			</div>
-			<input class='btn' type="submit" value="Subir CV" name="submit">
-		</div>
-	</form>
-	-->
-	<iframe src="https://www.forumbestmadrid.org/subidaCV/formularioweb.php" frameborder="0" style="height:490px; width:60%;margin-left:30%;margin-top:2%;" height="400" width="660" align="middle"></iframe>
+		</div> -->
+
+	<form id        =  "uploadForm"
+     enctype   =  "multipart/form-data"
+     action    =  "/api/uploadCV/"
+     method    =  "post"
+>
+<input type="file" name="CV" />
+<input type="submit" value="Upload Image" name="submit">
+</form>
+
+	<!-- <iframe src="https://www.forumbestmadrid.org/subidaCV/formularioweb.php" frameborder="0" style="height:490px; width:60%;margin-left:30%;margin-top:2%;" height="400" width="660" align="middle"></iframe> -->
 </div>
 <br><br>
