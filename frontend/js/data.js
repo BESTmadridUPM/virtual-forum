@@ -6,50 +6,73 @@ var DATA = {
 			icon: '/images/BESTlogo.png',
 			description: ['BEST, Board of European Students of Technology, is a constantly growing non-profit and non-political organisation. Since 1989 BEST has been providing communication, cooperation and exchange opportunities for students all over Europe.','96 Local BEST Groups in 33 countries are creating a growing, well-organised, powerful, young and innovative student network. More than 3350 members are involved in the day-to-day development of our services and almost one million students are reached through our events and initiatives.','BEST promotes „Empowered diversity“ and helps European students of technology become more internationally minded, by reaching a better understanding of European cultures and developing the ability to work and volunteer in a global environment. Technical students are given the opportunity through BEST courses and Engineering Competitions to broaden their knowledge in topics which complement their engineering education. This also create the context in which members of the organisation can share knowledge and gain experience by organising these events.','On the other hand, BEST also strives to broaden the job market horizons by giving opportunities through career related events (job fairs, company days, workshops) and an international career center. Last but not least, BEST has developed its own internal training system, to better sustain the organisation; therefore its members have also the opportunity to improve their skills and knowledge by participating in training events.'],
 			acceptsCV: true,
+			profiles:['']
 		},
 		company11: {
-			name: 'Afi',
-			icon: 'https://www.afi.es/webAfi/rcs/logo.png',
-			description: ['Desde la fundación, en Afi desarrollamos un servicio de asesoramiento financiero que consiste en el análisis de la economía mundial y en la realización de recomendaciones de inversión, financiación y cobertura a partir de nuestras previsiones para variables como los tipos de interés, los tipos de cambio, el precio de las materias primas, las cotizaciones bursátiles, etc. Este servicio, basado en el rigor analítico y en la independencia, lo prestamos de forma puntual o recurrente y para una amplia lista de clientes: entidades financieras, empresas de servicios de inversión, empresas no financieras, instituciones y organismos públicos, grandes patrimonios, fundaciones, etc.','Somos diferentes y así lo valoran nuestros clientes. Somos un equipo especializado que ofrece consultoría de nicho, a diferencia de las grandes consultoras, más generalistas. Nuestro modelo de consultoría se basa en el rigor técnico combinado con una fuerte orientación al cliente, al servicio que le ofrecemos, a la innovación para dar respuesta a sus inquietudes.','Todo ello desde la más absoluta cercanía. Creemos en la comunicación cliente-consultor como la pieza fundamental sobre la que construir un trabajo útil y de calidad, por ello nos gusta que nuestros clientes nos sientan como parte de sus propios equipos, que nos perciban como los compañeros de viaje que les ayudarán a conseguir sus metas.','Nuestro compromiso con el rigor nos ha llevado desde los inicios a dedicar una buena parte de nuestros recursos a trasladar el conocimiento a nuestros clientes a través de la formación. Nuestra escuela de finanzas es reconocida por su prestigio y calidad y por el rasgo diferencial de contar con ponentes que en su gran mayoría combinan sus labores de consultoría en Afi con la docencia.'],
-			acceptsCV: false,
-		},
-		company12: {
-			name: 'Amadeus',
-			icon: '/images/amadeus.png',
-			description: ['Amadeus provides the technology which keeps the travel sector moving - from initial search to making a booking, from pricing to ticketing, from managing reservations to managing check-in and departure processes. Our ambition is to facilitate the entire travel journey from door-to-door, in the process improving the travel experience for hundreds of millions of people every year. We do this by joining up and connecting key players in the travel industry: travel agencies, corporations, airlines, airports, hotels, railways and more. We give those companies the tools to serve travelers better and to manage their own business more effectively. Amadeus is at the heart global travel industry. Our people, our technology and our innovation are dedicated to working with our customers and partners to shape the future of travel.',' Our ambition is to work with our customers and partners to shape the future of travel. Fulfilling this ambition requires the team work of top travel trade talent. For this reason we offer international travel industry jobs, internships, and development opportunities.','Employees at Amadeus have the opportunity to work at international jobs in the travel industry around the world. Amadeus careers give candidates the chance to advance professionally and make a name for themselves in the global job market.',' A career at Amadeus also gives travel professionals the opportunity to work abroad in a truly international job capacity.',' If you want to shape your career and the future of travel, Amadeus is the place for you.'],
-			acceptsCV: false,
-		},
-		company13: {
-			name: 'Apple',
-			icon: 'images/apple_blanco.png',
-			description: ['En Apple no solo creamos productos. Creamos maravillas que han revolucionado sectores enteros. La diversidad de personas e ideas inspira la innovación que hay en todo lo que hacemos: desde nuestra increíble tecnología al excepcional compromiso que mantenemos con el medio ambiente. Únete a Apple y ayúdanos a mejorar el mundo. Los empleados del Apple Store son gente única, que aprovecha su talento y experiencia para acercar a los clientes todo lo que ofrece Apple. Hay personas analíticas, creativas, técnicas, con don de gentes… Así que seas como seas, en el Apple Store tienes la oportunidad de demostrar lo que vales.','Puestos de ventas','Si te encanta tratar con la gente, te apasiona la tecnología y buscas un puesto de ventas en el que aplicar tus habilidades, el Apple Store es tu sitio: un entorno único donde todo está pensado para ofrecer experiencias fantásticas. Buscamos personas extraordinarias para acercar nuestros productos a los clientes, particulares o de empresa.','Puestos de asistencia técnica','¿Te encanta resolver problemas y compartir todo lo que sabes? En el Apple Store tenemos los mejores productos del mundo, así que la asistencia técnica tenía que estar a la altura. Queremos que nuestros clientes se vayan siempre satisfechos, y por eso ponemos a su disposición a un gran equipo en el que pueden confiar.','Puestos de Leadership','En el Apple Store sabemos que lo que importa en un líder no es tanto su formación y su experiencia como su capacidad de motivar: que conecte con su equipo, que busque soluciones innovadoras y que cree un entorno donde todos puedan alcanzar sus objetivos.'],
-			acceptsCV: false,
-		},
-		company14: {
-			name: 'Avaanza',
-			icon: '/images/avaanza.png',
-			description: ['Av@anza, como Partner de Cisco en Formación, puede impartir todo el Curriculum Oficial de Cursos.','Nuestras instalaciones, ubicadas en el Centro de Madrid, disponen de 3 amplias aulas de entre 30 y 60 m2, para albergar hasta 35 personas. Todas ellas equipadas con Pizarras Digitales de 90”, que harán mucho más fácil y cómodo el aprendizaje.','Contamos con un colectivo de instructores, todos ellos certificados por Cisco, con más de 15 años de experiencia impartiendo formación de alta calidad y además aportando como valor añadido, experiencia de campo. ','Porque, además de impartir formación, también contamos con la Especialización SMB de Cisco, que nos permite poder ayudar a nuestros clientes en cualquier problemática que se encuentren a la hora de instalar y configurar cualquier equipo Cisco. Además con nuestro equipamiento de última generación, instalado en nuestro Data Center, podemos ayudarte a confeccionar cualquier maqueta que necesites.','Conscientes de que la Formación es un factor importante en las empresas y difícil de compaginar con el trabajo del día a día de los ingenieros, el principal objetivo de Av@anza es adecuarse al cliente; a sus necesidades y a su tiempo disponible, haciéndole fácil la gestión de su formación y dándole un valor añadido al aprendizaje, siempre con compromiso de calidad.'],
+			name: 'BBVA',
+			icon: '',
+			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.'],
+			profiles: ['Carreras técnicas superiores: Ingenierías, Matemáticas, Estadística, Física, etc','Economía y ADE'],
+			link: 'https://careers.bbva.com/espana/',
+			hasLink: true,
 			acceptsCV: true,
 		},
-		company15: {
-			name: 'BBVA',
-			icon: '/images/bbva.png',
-			description: ['La historia de BBVA es la historia de muchas personas que, desde mediados del siglo XIX, han formado parte de más de un centenar de entidades financieras que se han ido uniendo para ampliar su proyecto empresarial.','Hoy, en BBVA trabajamos por un futuro mejor para las personas, buscando relaciones duraderas con nuestros clientes que cambian la forma de ver el negocio. Como resultado de este trabajo, BBVA se ha convertido en todo un referente mundial y en uno de los bancos más reconocidos y premiados.','BBVA apuesta firmemente por el futuro y está siendo pionero en la adaptación a las necesidades que impone un mercado cada vez más global, en definitiva, a la banca del siglo XXI.','Una trayectoria de más de 150 años avala esta apuesta.','Los perfiles técnicos como el tuyo son muy demandados en BBVA. Si quieres conocer nuestras ofertas tanto de trabajo como de prácticas visita nuestro portal de empleo y déjanos tu CV. Además, podremos informarte de primera mano en nuestro stand el día 16/04. Acércate a conocernos!'],
-			link:'www.careers.bbva.com/espana',
+		company12: {
+			name: 'B-Lingual',
+			icon: '',
+			//Quieren el texto con formato!!//
+			description: ['Esta señora quiere el texto con formato'],
+			profiles:['Estudiantes de últimos cursos con interés en aprender un idioma extrajero'],
+			link: 'www.b-lingualexperience.com',
 			hasLink: true,
 			acceptsCV: false,
 		},
-		company16: {
-			name: 'Deloitte',
-			icon: '/images/deloitte.png',
-			description: ['Deloitte ofrece multitud de oportunidades en sus distintas líneas de negocio, grupos sectoriales y oficinas. La incorporación es con contrato laboral o con prácticas para aquellos alumnos que aún están estudiando. La integración de nuestras líneas de servicio, te ayudará a desarrollar soluciones de alto valor añadido para nuestros clientes, líderes en sus respectivos sectores. En Deloitte, un excelente equipo de profesionales te ayudará a crecer y desarrollarte. Encontrarás el ambiente de trabajo que a ti te gusta.'],
+		company13: {
+			name: 'Carrefour',
+			icon: '',
+			//Falta poner las negritas en su sitio!//
+			description: ['En la actualidad, contamos con más de 470.000 empleados en más de 30 países. Somos la empresa nº 1 de distribución en Europa y nº 2 en el mundo gracias a la pasión y el talento de nuestros empleados.','Somos de origen Francés y estamos presentes en España desde el año 1973, donde 40.000 personas componemos Carrefour y gestionamos 173 hipermercados, 115 supermercados y 114 tiendas de proximidad. Además, Carrefour cuenta con las líneas de negocio: Finanzas y Seguros, gasolineras, viajes, Carrefour móvil y entradas.','Nuestra ambición es seguir siendo el comerciante favorito ¿Cómo lo conseguimos?','Siendo innovadores ofreciendo nuevo productos, apostando por la diversidad de formatos de tienda, incorporando nuevos servicios y para mejorar la vida de nuestros clientes.'],
+			profiles:['Ingenieros Agrónomos y Agrícolas','Ingenieros de Telecomunicaciones','Ingenieros Industriales'],
+			link: 'http://www.carrefour.es/trabaja-en- carrefour/mas-info/',
+			hasLink: true,
 			acceptsCV: true,
+		},
+		company14: {
+			name: 'Efron Consulting',
+			icon: '',
+			description: ['Efron Consulting es una compañía de Consultoría, Tecnología y Outsourcing, que cuenta en la actualidad con más de 700 profesionales trabajando en proyectos nacionales e internacionales en los Sectores Financiero, Sanitario, Telecomunicaciones, Industria y Administración Pública, con oficinas en España (Madrid y Barcelona), Estados Unidos (Boston), Colombia (Bogotá y Medellín) y México (México DC y Santiago de Querétaro).','CALIDAD E INNOVACIÓN','En Efron promovemos la implantación de una estrategia de actuación para consolidar las buenas prácticas e incrementar la madurez de los servicios de nuestro catálogo, así como el conocimiento y la constante innovación de los servicios ofrecidos a cliente y mirando hacia el futuro diseñando y avanzando las soluciones que demandarán nuestros clientes y el mercado.','EQUIPO HUMANO','Apostamos por el talento y los profesionales y ofrecemos servicios profesionalizados, estandarizados y externalizados que acompañan al software en el camino que realiza, de forma controlada y sin errores.','COMPROMISO','Combinando tecnología, organización y procesos de negocio, apostamos por la especialización para ofrecer valor en un sector de gran competitividad.','Nuestro compromiso es con la eficiencia, la innovación y la calidad.'],
+			profiles['Ingenieros Informáticos','Ingenieros en sistemas de Telecomunicaciones','Graduados en Ingeniería del Software','Físicos','Matemáticos'],
+			link: 'www.efronconsulting.com',
+			hasLink: true,
+			acceptsCV: true,
+		},
+		company15: {
+			name: 'Endesa',
+			icon: '',
+			description: ['QUIÉNES SOMOS:','Endesa es la empresa líder del sector eléctrico español y el segundo operador en el mercado eléctrico portugués. Somos una compañía que mira al futuro y busca soluciones inteligentes para desarrollar propuestas realistas ante los retos energéticos de un sector en continua evolución. Endesa cuenta con más de 10 mil empleados y presta servicio a más de 11 millones de clientes. Desde el primer trimestre de 2009 Endesa forma parte del Grupo Enel, una compañía multinacional del sector de la energía y un operador integrado líder en los mercados mundiales de electricidad y gas, focalizado en los mercados de Europa y Latinoamérica. El Grupo realiza operaciones en 32 países de 4 continentes, gestiona la generación de energía de más de 95 GW de capacidad instalada neta y distribuye electricidad y gas a través de una red que se extiende alrededor de 1,9 millones de kilómetros.','QUÉ BUSCAMOS:','Endesa apuesta por el talento joven y necesita personas como tú:','Ingenieros Industriales, recién graduados, con perfil técnicos y no técnicos.','Con un alto nivel de inglés','Personas que encajen con los valores de la compañía, dinámicas, proactivas, innovadoras y responsables. Con un espíritu flexible y con ganas de construir el modelo energético futuro.','Como empresa socialmente responsable queremos ayudar a los jóvenes a incrementar su empleabilidad.','QUÉ OFRECEMOS:','Becas para jóvenes titulados y prácticas para alumnos de últimos cursos de ingeniería.','La empresa ofrece 145 becas en las diferentes áreas de negocio de toda España. Con una duración de un año, jornada completa, ayuda económica mensual que te permitirá conseguir un continuo desarrollo personal y profesional dentro de la compañía.'],
+			profiles: ['Ingenieros Industriales','Grado en Informática','Grado en Matemáticas','Grado en Estadística','Grado en Física','Grado en Económicas','Grado en ADE','Grado en Derecho'],
+			link:'www.endesa.com',
+			hasLink: true,
+			acceptsCV: true,
+		},
+		company16: {
+			name: 'EOI: Escuela de Organización Industrial',
+			icon: '',
+			//OJO al tema, falta darle el formato al texto//
+			description: ['Necesitan el texto con formato'],
+			profiles: ['Todo tipo de perfiles'],
+			link:'www.eoi.es',
+			hasLink: true,
+			acceptsCV: false,
 		},
 		company17: {
 			name: 'EY',
-			icon: '/images/ey.png',
-			description: ['En EY te ayudamos a alcanzar tu potencial y a conseguir tus objetivos, tanto personales como profesionales. Te ofrecemos experiencias gratificantes y retadoras que te mantienen motivado, dentro de un ambiente de integridad y trabajo en equipo, en algunas de las empresas más importantes del mundo.','Desde el primer día, te animamos a responsabilizarte de tu carrera y te damos apoyo en tu desarrollo profesional, con todas las herramientas que tenemos a nuestra disposición.','Contarás con la flexibilidad que necesitas para dedicar tu tiempo a lo que te importa, tanto en el trabajo como en tu vida personal. En EY, puedes ser tú mismo y expresar tu punto de vista con energía y entusiasmo, independientemente de la oficina del mundo en la que te encuentres','Es como marcas la diferencia'],
-			acceptsCV: false,
+			icon: '',
+			description: ['EY es líder mundial en servicios de auditoría, fiscalidad, asesoramiento en transacciones y consultoría, con más de 190.000 profesionales en más de 150 países. Nuestro lema, “Building a better working world”, consiste en contribuir a construir un entorno mejor en todos nuestros ámbitos de actuación y ser relevantes para nuestros clientes.','La Firma tiene una estrategia conocida como Visión 2020, cuyo objetivo es impactar en los valores y la calidad de nuestro trabajo. Gira entorno a tres pilares: ser relevantes para el mercado, potenciar los equipos de alto rendimiento y apostar en sinergias globales para reforzar el entorno local. Todo esto nos permitirá dar un servicio excepcional a nuestros clientes.'],
+			profiles: ['Nuestras ofertas están dirigidas a Titulados o estudiantes de último curso de Derecho, Administración y Dirección de Empresas, Dobles Titulaciones, Ciencias Económicas, Ciencias Actuariales y Financieras, Matemáticas, Estadística, Ingenierías Informáticas, Industriales o de Telecomunicaciones, con alto nivel de inglés, capacidad de liderazgo, integridad, pasión e iniciativa y motivados por formar parte de un equipo de profesionales innovador y dinámico, capaz de ofrecer a las empresas soluciones de éxito para unos mercados cada vez más globales.'],
+			link:'www.ey.com/es',
+			hasLink: true,
+			acceptsCV: true,
 		},
 		company18: {
 			name: 'efron Consulting',
@@ -198,9 +221,7 @@ var DATA = {
     facultad_de_trabajo_social : 'Facultad de Trabajo Social',
     facultad_de_veterinaria : 'Facultad de Veterinaria',
     otros_centros : 'Otros Centros',
-	},
-
-};
+	},','};
 $(document).ready(function(){
 	// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
 	$('.modal-trigger').leanModal();
