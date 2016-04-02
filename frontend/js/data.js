@@ -19,7 +19,7 @@ var DATA = {
 		},
 		company12: {
 			name: 'B-Lingual',
-			icon: '',
+			icon: '/images/B-Lingual_logo.jpg',
 			//Quieren el texto con formato!!//
 			description: ['Esta señora quiere el texto con formato'],
 			profiles:['Estudiantes de últimos cursos con interés en aprender un idioma extrajero'],
@@ -57,9 +57,8 @@ var DATA = {
 		},
 		company16: {
 			name: 'EOI: Escuela de Organización Industrial',
-			icon: '',
-			//OJO al tema, falta darle el formato al texto//
-			description: ['Necesitan el texto con formato'],
+			icon: '/images/eoi_logo.jpg',
+			description: ['Quiénes somos:', 'Te presentamos nuestra Escuela y nuestros programas máster para recién titulados. Llevamos 60 años formando a personas que hoy están ocupando puestos de responsabilidad en multinacionales, empresas, asociaciones… y seguimos evolucionando con unos programas adaptados a tus necesidades y a las necesidades de las empresas con las que trabajarás.', 'Qué buscamos:', 'Buscamos a los directivos y gestores de empresas del mañana. Se acerca el momento en el que cerrarás con éxito otra etapa, tu etapa universitaria. Y no podemos más que felicitarte: ¡¡enhorabuena!!', '¿Has pensado qué hacer después?', '¿Has pensado qué hacer ahora?', 'Qué ofrecemos:', 'Ofrecemos una formación de postgrado adecuada a tus necesidades, desde programas líderes en Gestión Empresarial hasta programas altamente especializados en Medioambiente y Sostenibilidad, en su modalidad presencial u online y siempre con las metodologías de trabajo más innovadoras.', 'Una formación que está:', 'CERCA DE LA EMPRESA', 'Nuestros programas se adaptan constantemente a las necesidades de las empresas. Queremos que aprendas exactamente lo que necesitarás en tu puesto de trabajo.', 'CERCA DEL MUNDO', 'Contamos con profesores visitantes internacionales que, junto con tus propios compañeros procedentes de muy diversos países, te sumergirán en un aprendizaje global. Nuestros postgrados cuentan con un study tryp y te damos la oportunidad de realizar algunos de nuestros másters íntegramente en inglés o, si lo prefieres, algunas asignaturas.', 'CERCA DE TI', '» Cuando termines tu máster de postgrado, te ofrecemos la posibilidad de realizar prácticas remuneradas en importantes empresas. ¿Qué mejor forma de entrar en el mercado laboral?', '» Podrás acceder a una exclusiva bolsa de empleo, a través de nuestro servicio de Carreras Profesionales, que colabora más de 2.000 empresas.', '» Sabemos que plantearte seguir estudiando implica un fuerte esfuerzo económico. Precisamente porque creemos que el dinero no debe condicionar tu futuro presente, ponemos a tu disposición un amplio programa de becas y ayudas económicas.'],
 			profiles: ['Todo tipo de perfiles'],
 			link:'www.eoi.es',
 			hasLink: true,
