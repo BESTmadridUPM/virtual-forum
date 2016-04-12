@@ -36,7 +36,7 @@ app.configure(function(){
 app.post('/webhook/', (req,res) => {
 	exec(`cd /home/virtual-forum && git pull && npm install && forever restartall`,(error)=>{
 		if (error) return res.send(error);
-		res.send(200);
+		return res.send(200);
 	});
 });
 app.post('/api/uploadCV/', function (request, response) {
