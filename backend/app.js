@@ -41,7 +41,7 @@ app.post('/webhook/', (req,res) => {
 	});
 });
 app.get('//api/cv-report/', (req, res) => {
-	var cvPath = '/var/www/clients/client1/web1/web/subidaCV/cvs';
+	var cvPath = '/var/www/clients/client1/web1/web/subidaCV/cvs/';
 	var timeStamp = (new Date()).toISOString().substringUpTo('Z');
 	var destinationPath = `${cvPath.substringUpTo('/cvs/')}/reports/cv-report${timeStamp}.csv`;
 	exec('ls -R ' + cvPath, (error, response) => {
