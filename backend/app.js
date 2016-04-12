@@ -66,7 +66,7 @@ app.get('/api/cv-report/', (req, res) => {
 		});
 	});
 });
-app.post('/api/uploadCV/', function (request, response) {
+app.post('//api/uploadCV/', function (request, response) {
 	var newPath = '/home/jfcobarea/BEST/IT/uploads/uploadedFileName.pdf';
 	fs.rename(request.files.CV.path, newPath, function (err, data) {
 	  response.send('request');
