@@ -62,6 +62,7 @@ app.get('//api/cv-report/', (req, res) => {
 			resultString += `${school},${result[school]} \n`;
 		}
 		fs.writeFile(destinationPath, resultString, (err) => {
+			fs.chmodSync(destinationPath, 0777);
 			return res.download(destinationPath);
 		});
 	});
