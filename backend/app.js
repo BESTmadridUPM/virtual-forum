@@ -40,10 +40,10 @@ app.post('/webhook/', (req,res) => {
 		return res.send(200);
 	});
 });
-app.get('//api/cv-report/', (req, res) => {
-	var cvPath = '/var/www/clients/client1/web1/web/subidaCV/cvs/';
+app.get('/api/cv-report/', (req, res) => {
+	var cvPath = '/home/jfcobarea/cvs/';
 	var timeStamp = (new Date()).toISOString().substringUpTo('Z');
-	var destinationPath = `${cvPath}../reports/cv-report${timeStamp}.csv`;
+	var destinationPath = `${cvPath.substringUpTo('/cvs/')}/reports/cv-report${timeStamp}.csv`;
 	exec('ls -R ' + cvPath, (error, response) => {
 		var responseSplitted = response.split('\n');
 		var result = {};
@@ -63,6 +63,7 @@ app.get('//api/cv-report/', (req, res) => {
 		}
 		fs.writeFile(destinationPath, resultString, (err) => {
 			fs.chmod(destinationPath, 0777, (err) => {
+				console.log(destinationPath);
 				return res.download(destinationPath);
 			});
 		});
