@@ -1,4 +1,4 @@
 /*exported settings */
 var settings = {
-  forumActive: true,
+  forumActive: false,
 };
